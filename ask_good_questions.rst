@@ -111,7 +111,8 @@ Don't
   - Ask if someone knows the module with which you are having trouble
   - Declare that you have discovered a bug.  You may have, but more often than
     not, you are not using the module as the author intended.
-  - Demand and answer.  #python is a free service provided by volunteers in their free time.
+  - Demand an answer.  #python is a free service provided by volunteers in
+    their free time.
 
 Frequently Asked Questions
 **************************
