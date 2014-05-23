@@ -76,3 +76,39 @@ Do
 Don't
   - Ask if anyone is around the answer questions
   - Ask if someone knows the library you are having trouble with
+
+Frequently Asked Questions
+**************************
+
+These are genuinely asked quite often.
+
+"What's wrong with LOL?"
+++++++++++++++++++++++++
+
+#python has a policy that 'net speak' is not allowed in channel.  Using phrases
+like 'lol', 'rofl', 'wtf', etc. are not welcome in the channel.  New users to
+the channel will often ask, argue, and complain about this rule, as it does not
+match the acceptable behavior rules of many other online communities.
+
+The reason for this rule is simple: there are, at the time of this writing, an
+average of 1400 users in the channel at any given time.  In order to be
+productive helpers of the community, it is necessary to cut down on some of the
+noise in the room, so it is easier to see other user's problems.  As these
+banned phrases often are said on their own lines, they tend to drown out
+questions and answers of other users.  Therefore they are not allowed in
+channel.
+
+'Why "NO PROJECT EULER"?'
++++++++++++++++++++++++++
+
+At the time of writing this document, there had been an admonishment in the
+channel topic forbidding discussions of https://projecteuler.net/ problems.
+The reasoning behind this rule is quite simple; the goal of #python is to help
+people write better python code.  Project Euler's goals, while using python,
+are to help people understand mathematic principals through programming.  More
+often than not, those who asked questions relating to Project Euler were not
+having problems with Python concepts, but with the mathematical concepts they
+were trying to solve.  As these are not problems that exist in normal
+programming with Python, and that the influx of users asking for math help was
+drowning out the users asking for Python help, it was decided to ban questions
+relating to Project Euler.
