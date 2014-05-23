@@ -194,17 +194,22 @@ Include, if you have them, the time (and timezone you are in) of the problem,
 and they will do the best they can to prevent that from ever happening again.
 That behavior is unacceptable, but thankfully very, very rare.
 
-What is more common is bluntness, and that bluntness can be interpreted as an
-attack, rudeness, or just being mean.  This is not something that is likely to
-change.  It hurts, sometimes, when someone tells you that what your doing is
-wrong, but it helps no one to 'sugar coat' such an answer.  My best advice for
-when you feel attacked by someone's blunt response is to stop, and take a deep
-breath.  Most of the time, there will be a reasonable explanation of what was
-wrong and why its wrong by the time you exhale.
+Something that exists in our community, that great effort has been put towards
+changing, is a unnecessary level of bluntness, bordering on rudeness, in the
+channel.  This often comes in the form of terse, demeaning answers to
+questions.  I can make no excuses for the actions of others, but this is not
+something we as a community endorse.  If this has happened to you, please tell
+the person, politely, that what you said was offensive or rude.
 
-It is nothing personal, and we do not judge you based on the (perceived)
-mistakes you make in your programming.  We have all made mistakes and are
-simply trying to advance you past them as quickly as possible.
+The people in #python come from all cultures and ways of life.  Some may have
+different values than you, and may have not considered what they said or did to
+be rude.  While blatant rudeness is unacceptable, in a community as large as
+#python, it still happens.
+
+No excuses can be made for abusive users.  If a user is constantly rude, but is
+not discriminatory, it may be prudent to ignore them.  All IRC clients are
+capable of blocking messages from a user, I leave it as an exorcise to the
+reader to discover that mechanism in your client.
 
 "But its a .py, why wont you help me?"
 ++++++++++++++++++++++++++++++++++++++
@@ -215,11 +220,11 @@ distribution ships or the user downloaded from the internet.  Whatever the
 application is supposed to do, it has a bug, and the user asks in #python for
 help.
 
-Unfortunately, there are uncountable applications written in Python, some
-better than others.  It is impossible for a small group of helpers to provide
-help for applications that are buggy, close source, sufficiently ancient, or
-sufficiently complex.  The goal of #python is to help people write better code.
-We don't have the resources to fix everyones bugs for them.
+Unfortunately, there are an unknowable number of applications written in
+Python, some better than others.  It is impossible for a small group of helpers
+to provide help for applications that are buggy, close source, sufficiently
+ancient, or sufficiently complex.  The goal of #python is to help people write
+better code.  We don't have the resources to fix everyones bugs for them.
 
 Recommended Reading
 *******************
