@@ -1,8 +1,37 @@
 Asking Good Questions in #python
 ================================
 
-Prep Work
----------
+Before You Ask
+--------------
+
+Google
+******
+
+Search the internet for the solution to your problem.  You will often find a
+workable example of what you are trying to do (if it is indeed possible).  Do
+be careful, however with solutions you find.  StackOverflow is rife with bad
+advice; before using the number one answer, read the comments and other
+answers.  Look at many solutions to the problem and see what they have in
+common.
+
+Documentation
+*************
+
+If you have not already, read the documentation of any modules you are using.
+They may explicitly cover any problems you are having.  Along the same lines as
+the documentation, check any public issue trackers, mailing lists, or forums
+associated with the module or package in question for any user with the same
+problems.
+
+Read the Code
+*************
+
+You may be able to find the answer to your question by reading the code of the
+module or package you are having a problem with.  This may also enlighten you
+on the way the module author intended for you to use the module.
+
+Asking Your Question
+--------------------
 
 Know What You are Trying
 ************************
@@ -45,7 +74,10 @@ Before you ask a question if some operation is possible, try it yourself.
 Write a small python module that demonstrates what you are trying, and run it.
 If it runs, then you have your answer without asking.  If it does not run, or
 does not run correctly, you have a basis from which to ask your question (this
-should only be invoked if you are unable to share your code, see bellow.)
+should only be invoked if you are unable to share your code, see bellow).  Do
+this step even if you intend on showing your entire codebase.
+
+For advice on writing this module, see http://www.sscce.org/.
 
 Show Your Code
 **************
@@ -63,19 +95,23 @@ having.  This is what you should provide in a web-paste if you cannot show your
 actual code.  Keep in mind, that this is no substitute to showing your actual
 code.
 
-Asking Your Question
---------------------
-
 Do's and Don't's
 ****************
 
 Do
   - Have your reasonably well worded question ready
   - Have a link to your code ready
+  - Make a reasonable effort to write in grammatical, well-spelled, English
+  - Be patient.  A good question often does not have a quick diagnosis or
+    answer
+  - Help others while waiting for an answer to your question.
 
 Don't
   - Ask if anyone is around the answer questions
-  - Ask if someone knows the library you are having trouble with
+  - Ask if someone knows the module with which you are having trouble
+  - Declare that you have discovered a bug.  You may have, but more often than
+    not, you are not using the module as the author intended.
+  - Demand and answer.  #python is a free service provided by volunteers in their free time.
 
 Frequently Asked Questions
 **************************
@@ -168,6 +204,21 @@ wrong and why its wrong by the time you exhale.
 It is nothing personal, and we do not judge you based on the (perceived)
 mistakes you make in your programming.  We have all made mistakes and are
 simply trying to advance you past them as quickly as possible.
+
+"But its a .py, why wont you help me?"
+++++++++++++++++++++++++++++++++++++++
+
+This comes up when a non-programmer user joins #python with a bug in code they
+did not write.  This often takes the form of an application that a Linux
+distribution ships or the user downloaded from the internet.  Whatever the
+application is supposed to do, it has a bug, and the user asks in #python for
+help.
+
+Unfortunately, there are uncountable applications written in Python, some
+better than others.  It is impossible for a small group of helpers to provide
+help for applications that are buggy, close source, sufficiently ancient, or
+sufficiently complex.  The goal of #python is to help people write better code.
+We don't have the resources to fix everyones bugs for them.
 
 Recommended Reading
 *******************
