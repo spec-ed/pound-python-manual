@@ -84,4 +84,5 @@ looking code either.  Lets break it down.
 The idiom has a notable drawback.  zip stops iterating at the end of the
 shortest iterable, meaning, if your list is not divisible by the length of your
 group, you will be one grouping short.  To solve this, instead of zip, use
-`itertools.izip_longest`.
+`itertools.izip_longest
+<https://docs.python.org/2.7/library/itertools.html#itertools.izip_longest>`_.
