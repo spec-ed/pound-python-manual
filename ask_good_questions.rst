@@ -9,10 +9,10 @@ Google
 
 Search the internet for the solution to your problem.  You will often find a
 workable example of what you are trying to do (if it is indeed possible).  Do
-be careful, however with solutions you find.  StackOverflow is rife with bad
-advice; before using the number one answer, read the comments and other
-answers.  Look at many solutions to the problem and see what they have in
-common.
+be careful, however with solutions you find.  `StackOverflow
+<http://stackoverflow.com/>`_ is rife with bad advice; before using the number
+one answer, read the comments and other answers.  Look at many solutions to the
+problem and see what they have in common.
 
 Documentation
 *************
@@ -115,27 +115,27 @@ Don't
     their free time.
 
 Frequently Asked Questions
-**************************
+--------------------------
 
 These are genuinely asked quite often.
 
 'Why "NO PROJECT EULER"?'
-+++++++++++++++++++++++++
+*************************
 
 At the time of writing this document, there had been an admonishment in the
-channel topic forbidding discussions of https://projecteuler.net/ problems.
-The reasoning behind this rule is quite simple; the goal of #python is to help
-people write better python code.  Project Euler's goals, while using python,
-are to help people understand mathematic principals through programming.  More
-often than not, those who asked questions relating to Project Euler were not
-having problems with Python concepts, but with the mathematical concepts they
-were trying to solve.  As these are not problems that exist in normal
-programming with Python, and that the influx of users asking for math help was
-drowning out the users asking for Python help, it was decided to ban questions
-relating to Project Euler.
+channel topic forbidding discussions of `Project Euler
+<https://projecteuler.net/>`_ problems.  The reasoning behind this rule is
+quite simple; the goal of #python is to help people write better python code.
+Project Euler's goals, while using python, are to help people understand
+mathematic principals through programming.  More often than not, those who
+asked questions relating to Project Euler were not having problems with Python
+concepts, but with the mathematical concepts they were trying to solve.  As
+these are not problems that exist in normal programming with Python, and that
+the influx of users asking for math help was drowning out the users asking for
+Python help, it was decided to ban questions relating to Project Euler.
 
 "I asked about using <foo>, not <bar>."
-+++++++++++++++++++++++++++++++++++++++
+***************************************
 
 Warning: This section is opinionated.
 
@@ -184,27 +184,26 @@ depend on, then using the libraries that are popular and recommended by the
 community will greatly improve your chances of success.
 
 "Why do you have to be so mean?"
-++++++++++++++++++++++++++++++++
+********************************
 
-First of all, on behalf of the Python community, I apologize to you that you
-were offended.  If someone was harassing you, calling you names, using racial
-epithets, or were being discriminatory in any way towards you, please ask to
-speak to a channel operator, or join #python-ops and tell them what happened.
-Include, if you have them, the time (and timezone you are in) of the problem,
-and they will do the best they can to prevent that from ever happening again.
-That behavior is unacceptable, but thankfully very, very rare.
+First of all, on behalf of the Python community, I apologize.  If someone was
+harassing you, calling you names, using racial epithets, or were being
+discriminatory in any way towards you, please ask to speak to a channel
+operator, or join #python-ops and tell them what happened.  Include, if you
+have it, the time (and timezone you are in) of the problem, and they will do
+the best they can to prevent that from ever happening again.  That behavior is
+unacceptable, but thankfully very, very rare.
 
 Something that exists in our community, that great effort has been put towards
-changing, is a unnecessary level of bluntness, bordering on rudeness, in the
-channel.  This often comes in the form of terse, demeaning answers to
-questions.  I can make no excuses for the actions of others, but this is not
-something we as a community endorse.  If this has happened to you, please tell
-the person, politely, that what you said was offensive or rude.
+changing, is an unnecessary level of bluntness, bordering on rudeness.  This
+often comes in the form of terse, demeaning answers to questions.  This is not
+something we, as a community, endorse.  If this has happened to you, please
+tell the person, politely, that what they said was offensive or rude.
 
-The people in #python come from all cultures and ways of life.  Some may have
-different values than you, and may have not considered what they said or did to
-be rude.  While blatant rudeness is unacceptable, in a community as large as
-#python, it still happens.
+The people in #python come from all cultures and walks of life.  Some may have
+different values than you, and may not consider what they said or did to be
+rude.  As an international community, giving someone the benefit of the doubt,
+that they did not intentionally offend you, may be prudent.
 
 No excuses can be made for abusive users.  If a user is constantly rude, but is
 not discriminatory, it may be prudent to ignore them.  All IRC clients are
@@ -212,7 +211,7 @@ capable of blocking messages from a user, I leave it as an exorcise to the
 reader to discover that mechanism in your client.
 
 "But its a .py, why wont you help me?"
-++++++++++++++++++++++++++++++++++++++
+**************************************
 
 This comes up when a non-programmer user joins #python with a bug in code they
 did not write.  This often takes the form of an application that a Linux
@@ -227,7 +226,7 @@ ancient, or sufficiently complex.  The goal of #python is to help people write
 better code.  We don't have the resources to fix everyones bugs for them.
 
 Recommended Reading
-*******************
+-------------------
 
 - http://www.catb.org/~esr/faqs/smart-questions.html
 - http://sscce.org
