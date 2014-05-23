@@ -112,3 +112,52 @@ were trying to solve.  As these are not problems that exist in normal
 programming with Python, and that the influx of users asking for math help was
 drowning out the users asking for Python help, it was decided to ban questions
 relating to Project Euler.
+
+"I asked about using <foo>, not <bar>."
++++++++++++++++++++++++++++++++++++++++
+
+Warning: This section is opinionated.
+
+That is a statement, more than a question, but it is a common complaint.  New
+users, or users new to a problem space, will often ask questions about using an
+old third party module or a module from the standard library, and be told by
+the helpers to use a different library.  This often takes the form of a new
+user asking about problems with the socket library, and being told to use
+Twisted.
+
+Python is advertised as a language "with batteries included" - meaning that it
+has an extensive standard library of useful modules.  The problem is that
+modules in the standard library are very old and cannot be updated to use
+modern advancements.  Once a library enters the standard library, it cannot be
+updated until the next release of Python itself (which, at the time of this
+writing, has an 18 month minor-version release cycle).  At these
+year-and-a-half release marks, only conservative changes to the API can be
+made, and old APIs only removed with a previous release's deprication notice.
+The API cannot change at all in a patch level release (with the exception of
+fixing a bug in the api, but this is rare).
+
+Further, some of the modules in the standard library are quite low level, and
+intended to be used by seasoned programmers.  The socket module is one of these
+modules.  Without a deep understanding of networking, you will make a mistake.
+Even with a deep understanding, it is a hard module to use correctly.
+
+Developers who are experts in these low level modules have created, and
+maintained for a long time in many cases, third party modules and packages that
+give other users a more sane interface to low level functions, and hide the
+hard-to-implement-correctly details.  In the case of networking, Twisted is
+highly recommended by the users of #python.  Other problem spaces are similar
+(urllib vs. requests.  I could go on, but the list is extensive).
+
+On the other hand, some third party modules are better than others.  In the
+problem space of Object Relational Mappers, there are several options.
+SQLAlchemy is, at the time of this writing, considered to be one of the best
+options in that space.  Peewee on the other hand, is considered one of the
+worst for many reasons.  It is highly likely that a user with a question about
+Peewee will be directed to SQLAlchemy.  (Sorry, Peewee developers).
+
+So why where you told to use something else?  Because there is a better, well
+known, solution to your problem.  It should be mentioned, that you are free to
+ignore their advice, and the wisdom of the community may not be 'right', but if
+getting support from #python and from around the internet is something you
+depend on, then using the libraries that are popular and recommended by the
+community will greatly improve your chances of success.
