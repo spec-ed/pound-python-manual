@@ -1,10 +1,5 @@
-.. #Python User Manual documentation master file, created by
-   sphinx-quickstart on Fri May 23 10:46:26 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to #Python User Manual's documentation!
-===============================================
+#Python User Manual
+===================
 
 Contents:
 
@@ -13,12 +8,5 @@ Contents:
 
    ask_good_questions
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   
+This document is not endorsed by the operators of #python or by the PSF.
