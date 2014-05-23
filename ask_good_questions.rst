@@ -82,22 +82,6 @@ Frequently Asked Questions
 
 These are genuinely asked quite often.
 
-"What's wrong with LOL?"
-++++++++++++++++++++++++
-
-#python has a policy that 'net speak' is not allowed in channel.  Using phrases
-like 'lol', 'rofl', 'wtf', etc. are not welcome in the channel.  New users to
-the channel will often ask, argue, and complain about this rule, as it does not
-match the acceptable behavior rules of many other online communities.
-
-The reason for this rule is simple: there are, at the time of this writing, an
-average of 1400 users in the channel at any given time.  In order to be
-productive helpers of the community, it is necessary to cut down on some of the
-noise in the room, so it is easier to see other user's problems.  As these
-banned phrases often are said on their own lines, they tend to drown out
-questions and answers of other users.  Therefore they are not allowed in
-channel.
-
 'Why "NO PROJECT EULER"?'
 +++++++++++++++++++++++++
 
