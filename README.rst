@@ -14,5 +14,14 @@ http://creativecommons.org/licenses/by-nc/4.0/.
 Contributing
 ************
 
-The normal fork-edit-commit-pull request method.  Add your name to the AUTHORS
-file.
+This project is following the GitHub standard workflow.  To contribute, fork
+the repository, make your changes in a new branch, and send me a pull request.
+The development branch is 'draft', fork your branch from it, not 'master'.
+
+I am actively seeking more things to put into the Python FAQ.  If you are not
+in the mood to write a prose section on a problem, please file an issue with
+the question and solution.
+
+All contributions must be made under the terms of the license above.
+
+Add your name to the AUTHORS file when you make a contribution.
