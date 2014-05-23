@@ -65,6 +65,7 @@ looking code either.  Lets break it down.
    # now we want the list the length of one group.  Multiplying a list by an
    # integer copies the list that many times.  `flat_iters` points to a list
    # that looks like `[flat_iter, flat_iter, flat_iter, flat_iter, flat_iter]`
+   # Keep in mind, this is the same object in the list 5 times.
    flat_iters = list_of_flat_iter * 5
 
    # this is a little bit of magic now.  From the documentation of zip:
@@ -79,3 +80,8 @@ looking code either.  Lets break it down.
    # iterator to zip 5 times.  With each pass zip makes, the iterator gives zip
    # the next 5 values from our input list (flat).
    nested = zip(*flat_iters)
+
+The idiom has a notable drawback.  zip stops iterating at the end of the
+shortest iterable, meaning, if your list is not divisible by the length of your
+group, you will be one grouping short.  To solve this, instead of zip, use
+`itertools.izip_longest`.
