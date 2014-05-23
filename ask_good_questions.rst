@@ -145,3 +145,32 @@ ignore their advice, and the wisdom of the community may not be 'right', but if
 getting support from #python and from around the internet is something you
 depend on, then using the libraries that are popular and recommended by the
 community will greatly improve your chances of success.
+
+"Why do you have to be so mean?"
+++++++++++++++++++++++++++++++++
+
+First of all, on behalf of the Python community, I apologize to you that you
+were offended.  If someone was harassing you, calling you names, using racial
+epithets, or were being discriminatory in any way towards you, please ask to
+speak to a channel operator, or join #python-ops and tell them what happened.
+Include, if you have them, the time (and timezone you are in) of the problem,
+and they will do the best they can to prevent that from ever happening again.
+That behavior is unacceptable, but thankfully very, very rare.
+
+What is more common is bluntness, and that bluntness can be interpreted as an
+attack, rudeness, or just being mean.  This is not something that is likely to
+change.  It hurts, sometimes, when someone tells you that what your doing is
+wrong, but it helps no one to 'sugar coat' such an answer.  My best advice for
+when you feel attacked by someone's blunt response is to stop, and take a deep
+breath.  Most of the time, there will be a reasonable explanation of what was
+wrong and why its wrong by the time you exhale.
+
+It is nothing personal, and we do not judge you based on the (perceived)
+mistakes you make in your programming.  We have all made mistakes and are
+simply trying to advance you past them as quickly as possible.
+
+Recommended Reading
+*******************
+
+- http://www.catb.org/~esr/faqs/smart-questions.html
+- http://sscce.org
