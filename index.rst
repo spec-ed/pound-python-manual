@@ -1,6 +1,14 @@
 #Python User Manual
 ===================
 
+TL:DR
+*****
+ - Google for your problem
+ - Have a minimal, executable example that demonstrates your problem
+ - Have a full description of your problem, including any tracebacks/errors
+ - Be patient
+ - Don't ask to ask
+
 Contents:
 
 .. toctree::
