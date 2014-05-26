@@ -1,63 +1,56 @@
 Asking Good Questions in #python
 ================================
 
-Before You Ask
+Before you ask a question, try a few things first...
+(A little effort goes a long way here and we'll know, trust us.)
 --------------
 
-Google
-******
+Search the net.
+***************
 
-Search the internet for the solution to your problem.  You will often find a
-workable example of what you are trying to do (if it is indeed possible).  Do
-be careful, however with solutions you find.  `StackOverflow
-<http://stackoverflow.com/>`_ is rife with bad advice; before using the number
-one answer, read the comments and other answers.  Look at many solutions to the
-problem and see what they have in common.
+Searching the internet for a solution to your problem should be 2nd nature.  
+Sometimes a simple copy/paste of the debugger error message will yeild fruitful web search results.
+Do be careful though, not every solution is a good one.  Some websites don't moderate 
+or critique postings by users. Look at several solutions before deciding what's best.
 
 Documentation
 *************
 
-If you have not already, read the documentation of any modules you are using.
-They may explicitly cover any problems you are having.  Along the same lines as
-the documentation, check any public issue trackers, mailing lists, or forums
-associated with the module or package in question for any user with the same
-problems.
+Although the documentation can seem intimidating, especially for beginners,
+it may explicitly cover any problems you are having.  Along those same lines; 
+check any public issue trackers, mailing lists, or forums associated with the module 
+or package in question.  You may not be the only one to have had an issue.  
 
-Read the Code
-*************
+Read the Code out loud 
+**********************
 
-You may be able to find the answer to your question by reading the code of the
-module or package you are having a problem with.  This may also enlighten you
-on the way the module author intended for you to use the module.
+You may be able to find the answer to your question by reading what you've written, out loud. 
+If you have trouble saying what your code does(program flow), there's a chance the code isn't
+quite what you want it to be.  This technique can also highlight areas where your understanding 
+might be a bit fuzzy.
 
-Asking Your Question
---------------------
+------------------------
 
 Know What You are Trying
 ************************
 
-The first response to many questions in #python is often "What are you trying
-to do?".  The person answering your question is trying to understand the
-problem.  All to many times a new user will ask a question about why their
-implementation of something does not work, and when asking for help, focus only
-on a small part of the implementation that is breaking.
+"What are you trying to do?" is usually the first response to many questions in #python.
+The person trying to help You is also trying to understand Your problem. If you don't know
+what the intended outcome of your script is, or a specific section, how can anyone else?
+It is equally important to note that more experienced programmers may have a better, easier,
+or more "Pythonic" course of action to apply when scripting, so it is best to know your goal.
 
-In order to help solve your problems, those answering questions need to
-understand the problem your code is trying to solve.  That is often more
-important than the details of the code you have already written.
 
 Identify Your Problem
 *********************
 
-You should have a full understanding of the problem you are having.  This
-sounds kind of odd at first.  It is obvious that you are having a problem with
-some aspect of your application, and you likely do not understand why; after
-all, if you did, you probably would not be asking the question in the first
-place.  What you have to understand is what your code is actually doing, and
-where it is breaking.
+If you knew exactly what was wrong, you could possibly fix it without help.
+Therefore, to the best of your ability, try to identify the issue at hand.  
+"My code is borked!", helps no one.
+"My user defined function isn't returning a value the way I thought it would.", does.
 
-This is the counterpoint to the previous section;  This is all about
-implementation detail.
+This is the counterpoint to the previous section;  
+What you want to happen and how you go about it are two different things.
 
 Think About your Question
 *************************
